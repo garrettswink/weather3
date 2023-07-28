@@ -1,0 +1,102 @@
+
+/* Header */
+#marquee {
+    display: flex;
+ }
+ 
+ #logo {
+     background-color: #2F4F4F;
+     color: orange;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 100px;
+     text-align: center;
+ }
+ 
+ #empty {
+     background-color: #2F4F4F;
+ }
+ 
+ #input-div {
+     background-color: #2F4F4F;
+     font-size: 50px;
+     text-align: right;
+     padding-top: 30px;
+ }
+ 
+ #button-div{
+     background-color: #2F4F4F;
+     padding-top: 40px;
+ }
+ 
+ #button {
+     background-color: red;
+     border-radius: 10%;
+     font-size: 40px;
+ }
+ 
+ /* Current Weather Display */
+ #current-weather-container {
+     border: black 1px solid;
+     height: 700px;
+     background-color: #2A4B7C;
+ }
+ 
+ 
+ #today-display {
+     border: black 1px solid;
+     height: 500px;
+     width: 500px;
+     margin-left: 400px;
+     margin-top: 100px;
+    background-color: white;
+    text-align: center;
+    color: #2F4F4F;
+    padding-top: 125px;
+ }
+ 
+ /* Five Day Forecast */
+ #five-day-forecast {
+     border: black solid 1px;
+     display: flex;
+     background-color: #2A4B7C;
+ }
+ 
+ .col-2 {
+     border: black solid 1px;
+     height: 500px;
+     width: 500px;
+     margin-top: 100px;
+     margin-left: 55px;
+     background-color: white;
+     text-align: center;
+     justify-content: center;
+     padding-top: 100px;
+ 
+ 
+     
+ }
+ 
+ #date-1 {
+     text-align: center;
+ }
+ 
+ #weather-1 {
+     text-align: center;
+ }
+ 
+ #temp-1 {
+     text-align: center;
+ }
+ 
+ /* Footer */
+ #footer { 
+     background-color: #2F4F4F;
+     height: 100px;
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+ }
+ 
+ 
+ 
