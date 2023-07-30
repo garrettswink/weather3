@@ -2,6 +2,16 @@
 const button = document.querySelector('#button');
 const input = document.querySelector('#user-input');
 
+// Search Div
+const history = document.querySelector('#history-display');
+
+
+// 🔥🔥🔥Search Function🔥🔥🔥
+button.addEventListener('click', function () {
+  let city = input.value;
+  history.innerHTML = city;
+});
+
 // Today's Weather Div Components
 const weatherDisplay = document.querySelector('#today-display');
 const tempToday = document.querySelector('#temperature');
@@ -54,7 +64,7 @@ function currentWeather() {
       weatherDisplay.appendChild(icon);
       tempToday.innerHTML = data.main.temp;
       weather.innerHTML = data.weather[0].description;
-    });
+    });    
 }
 
 currentWeather();
@@ -158,6 +168,8 @@ button.addEventListener('click', function () {
       icon.style.width = '100px';
       weatherDisplay.appendChild(icon);
     });
+
+    history.innerHTML = cityInput;
 });
 
 
